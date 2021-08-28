@@ -1,5 +1,5 @@
 import { Component, Input } from "@angular/core";
-import { Icon } from "../shared/types";
+import { Icon } from "../shared/types/types";
 
 @Component({
     selector: 'section',

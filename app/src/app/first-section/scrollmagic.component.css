@@ -277,7 +277,7 @@ cursor: pointer;}
     top: 10%;
     z-index: 6;
 } */
-#ship{
+/* #ship{
     position: relative;
     cursor: pointer;
     width: 25vw;
@@ -316,4 +316,4 @@ cursor: pointer;}
     to{
         transform: scale(1,1);
     }
-}
+} */
