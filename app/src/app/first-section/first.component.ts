@@ -11,8 +11,9 @@ ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax);
 })
 export class AnimationComponent {
 
+  public particles = new Array(100);
+
   ngOnInit() {
-    // gsap.registerPlugin(ScrollTrigger)
     var tl = gsap.timeline({
       scrollTrigger: {
         trigger: "#ship",

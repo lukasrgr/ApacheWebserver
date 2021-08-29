@@ -15,5 +15,6 @@ export class Section {
     @Input()
     label!: string;
 
-    ngOnInit() { }
+    @Input()
+    bg_img!: string;
 }

@@ -1,30 +1,20 @@
 <ion-header class="primary-color">
     <ion-toolbar color="primary">
-        <!-- <ion-title style="text-align: center; vertical-align: middle;">
-            Lukas Rieger
-        </ion-title> -->
-
 
         <ion-buttons>
             <ion-menu-button autoHide="false"></ion-menu-button>
-            <ion-segment mode="md" class="ion-justify-content-center">
-                <ion-segment-button value="Index1">
+            <ion-segment mode="md" class="ion-justify-content-center" [(ngModel)]="currentPage"
+                (ngModelChange)="segmentChanged($event)">
+                <ion-segment-button value="About me">
                     <ion-label translate>General.me</ion-label>
                 </ion-segment-button>
-                <ion-segment-button value="Index2">
-                    <ion-label translate>General.me</ion-label>
-                </ion-segment-button>
-                <ion-segment-button value="Index3">
-                    <ion-label translate>General.me</ion-label>
-                </ion-segment-button>
-                <ion-segment-button value="Index4">
-                    <ion-label translate>General.me</ion-label>
-                </ion-segment-button>
-                <ion-segment-button value="Index5">
-                    <ion-label translate>General.me</ion-label>
+                <ion-segment-button value="Rename">
+                    <ion-label translate>General.toBeRenamed</ion-label>
                 </ion-segment-button>
             </ion-segment>
         </ion-buttons>
 
     </ion-toolbar>
 </ion-header>
+
+<!-- routerLink='/tabs/tab1/seg1' -->

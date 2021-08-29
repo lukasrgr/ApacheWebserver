@@ -1,9 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 $primary-color: var(--ion-color-primary);
 $secondary-color: var(--ion-color-secondary);
-
-
+$tertiary-color: var(--ion-color-tertiary);
+// $background-color: var()
 :root{
-    --ion-color-primary: grey;
-    --ion-color-secondary: black;
-    }
+    --ion-color-primary: black;
+    --ion-color-secondary: grey;
+    --ion-color-tertiary: red;
+    --ion-color-secondary-contrast: white;
+    --ion-color-primary-contrast: white;
+    } 
