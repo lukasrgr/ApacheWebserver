@@ -83,7 +83,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/global.css"
+              "src/global.scss"
             ],
             "scripts": []
           }

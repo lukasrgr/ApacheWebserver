@@ -1,0 +1,120 @@
+article {
+    vertical-align: center;
+}
+
+ion-grid {
+    padding-top: 5%;
+}
+
+ion-row {
+    position: relative;
+    width: 100%;
+    font-size: 50pt;
+    opacity: 0;
+}
+
+
+ion-grid {
+    height: 100vh;
+    width: 100vw;
+}
+
+#circle {
+    // position: absolute;
+    // border: 2px solid white;
+    width: 6em;
+    height: 6em;
+    font-size: 50pt;
+    border-radius: 100%;
+    border-color: 2px solid white;
+    color: white;
+    background-color: black;
+    // z-index: 1;
+}
+
+#image {
+    position: absolute;
+    background-image: url('../../../assets/scrollmagic/city.jpg');
+    background-size: cover;
+    // background-size: 90vh 100%;
+    background-position: 20% 20%;
+    height: 100%;
+    width: 100%;
+    margin-top: -11vh;
+    clip-path: circle(12% at 26em 19.5em);
+    opacity: 0;
+    /* Safari 6.0 - 9.0 */
+    // -webkit-filter: grayscale(100%);
+    // filter: grayscale(100%);
+    // z-index: 2;
+}
+
+/* GLOBAL STYLES */
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+// /* Global */
+// .typewriter {
+//     font-family: Courier, monospace;
+//     display: inline-block;
+// }
+
+// .typewriter-text {
+//     display: inline-block;
+//     overflow: hidden;
+//     letter-spacing: 2px;
+//     animation: typing 5s steps(30, end), blink .75s step-end, deleteTyping 1s step-end;
+//     white-space: nowrap;
+//     font-size: 30px;
+//     font-weight: 700;
+//     border-right: 4px solid orange;
+//     box-sizing: border-box;
+// }
+
+// @keyframes deleteTyping {
+//     to {
+//         border-right: none;
+//     }
+// }
+
+// @keyframes typing {
+//     from {
+//         width: 0%
+//     }
+
+//     to {
+//         width: 100%
+//     }
+// }
+
+// @keyframes blink {
+
+//     from,
+//     to {
+//         border-color: transparent
+//     }
+
+//     50% {
+//         border-color: orange;
+//     }
+// }
+
+// @keyframes typewriter {
+//     from {
+//         width: 0;
+//     }
+
+//     to {
+//         width: ;
+//     }
+// }
+
+// @keyframes blinkTextCursor {
+//     from {
+//         border-right-color: rgba(255, 255, 255, .75);
+//     }
+
+//     to {
+//         border-right-color: transparent;
+//     }
+// }

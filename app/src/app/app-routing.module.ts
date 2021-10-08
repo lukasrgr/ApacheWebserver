@@ -1,9 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AnimationComponent } from './first-section/first.component';
+import { Eins_Page } from './eins/eins';
+import { Zwei_Page } from './zwei/zwei';
 
 const routes: Routes = [
-  { path: 'first-component', component: AnimationComponent },
+  // { path: '', redirectTo: 'aboutMe', pathMatch: 'full' },
+  { path: 'rename', component: Zwei_Page },
+  { path: 'aboutMe', component: Eins_Page }
 ];
 
 @NgModule({

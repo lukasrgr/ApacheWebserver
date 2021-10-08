@@ -2,11 +2,13 @@
 $primary-color: var(--ion-color-primary);
 $secondary-color: var(--ion-color-secondary);
 $tertiary-color: var(--ion-color-tertiary);
+
 // $background-color: var()
-:root{
+
+:root {
     --ion-color-primary: black;
     --ion-color-secondary: grey;
     --ion-color-tertiary: red;
     --ion-color-secondary-contrast: white;
     --ion-color-primary-contrast: white;
-    } 
+}
