@@ -47,8 +47,8 @@ import player from 'lottie-web';
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
   ],
   bootstrap: [AppComponent],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
+
 export class AppModule {
   // constructor() {
   //   registerLocaleData(localDE);

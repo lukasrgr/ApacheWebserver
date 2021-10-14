@@ -1,7 +1,7 @@
 export const TRANSLATION =
 {
     "General": {
-        "me": "Über mich",
+        "AboutMe": "Über mich",
         "toBeRenamed": "Umbenennen"
     }
 }

@@ -1,5 +1,5 @@
 <ion-header class="primary-color">
-    <ion-toolbar>
+    <ion-toolbar color="secondary">
 
         <ion-buttons>
             <ion-menu-button autoHide="false"></ion-menu-button>
@@ -8,7 +8,9 @@
                 <ion-segment-button value="About me" routerLinkActive="active" routerLink="/about">
                     <ion-label translate>General.me</ion-label>
                 </ion-segment-button>
-                <ion-segment-button routerLinkActive="active" routerLink="/rename">
+                <ion-segment-button routerLinkActive="passive" routerLink="/rename">
+
+                    <!-- TODO rename -->
                     <ion-label translate>General.toBeRenamed</ion-label>
                 </ion-segment-button>
             </ion-segment>

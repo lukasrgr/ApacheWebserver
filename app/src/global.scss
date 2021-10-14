@@ -17,8 +17,16 @@
 body {
     --overflow-y: hidden;
     font-family: monospace;
-    --ion-background-color: #383E4D;
-    --ion-color-primary: lightgreen;
+    // --ion-background-color: #383E4D;
+
+    // To be changed
+    --background: url('assets/images/cool-background.png');
+    --ion-color-primary-contrast: grey;
+}
+
+ion-content {
+    --background: none;
+    background-image: url('assets/images/cool-background.png');
 }
 
 // .section1 {
@@ -79,8 +87,10 @@ body {
 }
 
 ion-toolbar {
-    --background: url('assets/images/toolbar-background.png') repeat center 100%;
-    opacity: 30%;
+
+    // --background: url('assets/images/toolbar-background.png') repeat center 100%;
+    --background: black;
+    opacity: 100%;
 
     ion-segment-button {
         opacity: 100%;

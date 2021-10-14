@@ -1,0 +1,8 @@
+  11.10.2021 23:40:50: Komposition 'tempConverterComp' gestartet.
+
+  Speichern unter: C:\Users\Jack-\AppData\Local\Temp\Bodymovin\fuur01gm94\raw\images\img_0.png    FEHLENDES FOOTAGE, Farbbalken zeichnen: Datei nicht gefunden C:\Users\Jack-\OneDrive\Bilder\ApacheWebsite\5fde72cdf84da77b53544750_generativegestaltung1.png  11.10.2021 23:40:50: Komposition 'tempConverterComp' beendet.
+
+
+  Bish. Renderz.: 0 Sekunden
+Das Protokoll wurde am 11.10.2021 um 23:40:50 geschlossen.
+

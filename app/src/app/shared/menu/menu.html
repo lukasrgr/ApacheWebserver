@@ -1,11 +1,10 @@
-<ion-menu side="start" menuId="first" contentId="main">
+<ion-menu side="start" menuId="aboutMe" contentId="main" color="green">
     <ion-header>
-        <ion-toolbar color="primary-contrast">
-            <ion-button (click)="closeMenu()" slot="start" color="primary">
-                <ion-icon name="arrow-back">
-                </ion-icon>
-            </ion-button>
-            <ion-title>Menu</ion-title>
+        <ion-toolbar color="secondary">
+            <ion-buttons>
+                <ion-menu-button autoHide="true" (click)="closeMenu()">
+                </ion-menu-button>
+            </ion-buttons>
         </ion-toolbar>
     </ion-header>
     <ion-content>
@@ -13,8 +12,8 @@
             <ion-item>Impressum</ion-item>
             <ion-item>Other</ion-item>
             <ion-item>Settings</ion-item>
-            <ion-button (click)="useLanguage('en')">en</ion-button>
-            <ion-button (click)="useLanguage('de')">de</ion-button>
+            <!-- <ion-button (click)="useLanguage('en')">en</ion-button>
+            <ion-button (click)="useLanguage('de')">de</ion-button> -->
         </ion-list>
     </ion-content>
 </ion-menu>

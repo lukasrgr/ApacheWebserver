@@ -1,3 +1,13 @@
-<header></header>
-<menu></menu>
-<slide1></slide1>
+<ion-grid>
+    <ion-row size="12" style="height: 100%; margin-right: 10%;">
+        <ion-col sizeLg="7" sizeMd="12" sizeXs="12">
+            <lottie-player speed="2" autoplay src="assets/json/lAndR.json">
+            </lottie-player>
+        </ion-col>
+
+        <!-- Show when animation is finished -->
+        <ion-col sizeLg="5" sizeMd="12" sizeXs="12" style="margin-top: 5%;" *ngIf="animation_finished">
+            <ion-img src="assets/images/me_circled.png"></ion-img>
+        </ion-col>
+    </ion-row>
+</ion-grid>

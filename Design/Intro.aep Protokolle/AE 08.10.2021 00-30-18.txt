@@ -1,0 +1,8 @@
+  08.10.2021 00:30:18: Komposition 'Komp 1' gestartet.
+
+  Speichern unter: C:\Users\Jack-\OneDrive\Documents\GitHub\ApacheWebserver\Design\vids\Komp 1_1.avi    08.10.2021 00:30:39: Komposition 'Komp 1' beendet.
+
+
+  Bish. Renderz.: 21 Sekunden
+Das Protokoll wurde am 08.10.2021 um 00:30:39 geschlossen.
+

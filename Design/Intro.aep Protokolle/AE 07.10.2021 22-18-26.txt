@@ -1,0 +1,17 @@
+Adobe After Effects v17.5.1 Windows 64 Renderprotokoll für Projekt 'Intro.aep'
+
+Rendervorgang gestartet am 07.10.2021 um 22:18:26
+
+  07.10.2021 22:18:26: Komposition 'Komp 1' gestartet.
+
+  Speichern unter: C:\Users\Jack-\OneDrive\Documents\GitHub\ApacheWebserver\Design\Komp 1 (0;00;03;07)_2.psd    07.10.2021 22:18:26: Komposition 'Komp 1' beendet.
+
+
+  07.10.2021 22:18:26: Komposition 'Komp 1' gestartet.
+
+  Speichern unter: C:\Users\Jack-\OneDrive\Documents\GitHub\ApacheWebserver\Design\Komp 1 (0;00;03;07)_4.psd    07.10.2021 22:18:26: Komposition 'Komp 1' beendet.
+
+
+  Bish. Renderz.: 0 Sekunden
+Das Protokoll wurde am 07.10.2021 um 22:18:26 geschlossen.
+

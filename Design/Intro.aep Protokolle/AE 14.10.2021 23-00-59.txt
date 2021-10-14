@@ -1,0 +1,8 @@
+  14.10.2021 23:00:59: Komposition 'tempConverterComp' gestartet.
+
+  Speichern unter: C:\Users\Jack-\AppData\Local\Temp\Bodymovin\n8fco77mj4\raw\images\img_0.png    14.10.2021 23:00:59: Komposition 'tempConverterComp' beendet.
+
+
+  Bish. Renderz.: 0 Sekunden
+Das Protokoll wurde am 14.10.2021 um 23:00:59 geschlossen.
+

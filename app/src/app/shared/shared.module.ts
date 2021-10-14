@@ -13,12 +13,10 @@ import { IonicModule } from '@ionic/angular';
     declarations: [
         HeaderComponent,
         MenuComponent,
-        Section,
     ],
     exports: [
         HeaderComponent,
         MenuComponent,
-        Section
     ]
 })
 export class SharedModule { }

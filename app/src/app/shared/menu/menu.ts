@@ -8,7 +8,7 @@ import { TranslateService } from "@ngx-translate/core";
     templateUrl: './menu.html',
 })
 export class MenuComponent {
-    public currentPage: '1' | '2' = '1';
+    public currentPage: 'About me' | '2' = 'About me';
     public backUrl: boolean = false;
 
     constructor(

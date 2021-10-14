@@ -1,0 +1,8 @@
+  21.09.2021 21:58:07: Komposition 'Komp 1' gestartet.
+
+  Speichern unter: C:\Users\Jack-\OneDrive\Documents\GitHub\ApacheWebserver\AE\Intro.wav    21.09.2021 21:58:08: Komposition 'Komp 1' beendet.
+
+
+  Bish. Renderz.: 1 Sekunden
+Das Protokoll wurde am 21.09.2021 um 21:58:08 geschlossen.
+

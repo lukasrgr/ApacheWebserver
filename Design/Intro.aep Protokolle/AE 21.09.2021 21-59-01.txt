@@ -1,0 +1,8 @@
+  21.09.2021 21:59:01: Komposition 'Komp 1' gestartet.
+
+  Speichern unter: C:\Users\Jack-\OneDrive\Documents\GitHub\ApacheWebserver\AE\Komp 1.mov    21.09.2021 21:59:19: Komposition 'Komp 1' beendet.
+
+
+  Bish. Renderz.: 18 Sekunden
+Das Protokoll wurde am 21.09.2021 um 21:59:19 geschlossen.
+

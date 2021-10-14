@@ -4,7 +4,7 @@ import { Eins_Page } from './eins/eins';
 import { Zwei_Page } from './zwei/zwei';
 
 const routes: Routes = [
-  // { path: '', redirectTo: 'aboutMe', pathMatch: 'full' },
+  // { path: 'aboutMe', redirectTo: 'aboutMe', pathMatch: 'full' },
   { path: 'rename', component: Zwei_Page },
   { path: 'aboutMe', component: Eins_Page }
 ];

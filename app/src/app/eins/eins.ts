@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, EventEmitter, Output } from "@angular/core";
 
 @Component({
     selector: 'page-one',
@@ -6,7 +6,17 @@ import { Component } from "@angular/core";
 })
 export class Eins_Page {
 
-    constructor(
-    ) {
+    public animation_finished: boolean = false;
+    @Output() animationfinished = new EventEmitter<boolean>(false);
+
+    constructor() { }
+
+    ngAfterViewInit() {
+
+        // TODO: ? how to access length of lottie animation -> now static
+        setTimeout(() => {
+            this.animation_finished = true,
+                console.log("test")
+        }, 4000)
     }
 }
