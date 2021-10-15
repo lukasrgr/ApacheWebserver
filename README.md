@@ -30,14 +30,15 @@
   
   <table>
   <tr>
-    <td width=50%>TODOs
-      <ul>
-        <li>Some</li>
-      </ul>
-    </td>
     <td style="width=50%">TODOs
       <ul>
-        <li>Some</li>
+        <li>Translation</li>
+        <li>Routing</li>
+      </ul>
+    </td>
+    <td style="width=50%">Done
+      <ul>
+        <li>Lottie-Animation</li>
       </ul>
     </td>
   </tr>
