@@ -18,35 +18,38 @@
 <li>typescript                       4.3.5</li>
     </ul>
   </td>
- </table>
- <table>
   </tr>
-  <tr>Ionic:
+ </table>
+ 
+ <table>
+  <tr>Other:
   <td>
-    version: 5.4.1
+    Ionic 5.4.1
+  </td>
+    <td>
+    npm 6.13.4
+    yarn 1.22.15
+  </td>
+    <td>
+    node v12.16.1
   </td>
 </tr>
   </table>
-  
   <table>
   <tr>
     <td style="width=50%">TODOs
       <ul>
         <li>Translation</li>
         <li>Routing</li>
+        <li>Contact-Site</li>
       </ul>
     </td>
     <td style="width=50%">Done
       <ul>
         <li>Lottie-Animation</li>
+        <li>/</li>
+        <li>/</li>
       </ul>
     </td>
   </tr>
 </table>
-
-DONE: 
-- Lottie-Animation
-- 
-
-TODO: 
-- fix translation
