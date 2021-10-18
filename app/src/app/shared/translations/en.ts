@@ -1,7 +1,19 @@
 export const TRANSLATION =
 {
-    "General": {
-        "me": "About me",
-        "toBeRenamed": "Rename"
+    General: {
+        aboutMe: "About me",
+        toBeRenamed: "Rename"
+    },
+    Menu: {
+        Headings: {
+            Settings: {
+                settings: "Settings",
+                language: "Language",
+                generalSettings: "General Settings",
+            },
+            Other: {
+
+            }
+        }
     }
 }

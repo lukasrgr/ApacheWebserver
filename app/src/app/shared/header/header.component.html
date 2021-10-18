@@ -3,14 +3,18 @@
 
         <ion-buttons>
             <ion-menu-button autoHide="false"></ion-menu-button>
-            <ion-segment mode="md" class="ion-justify-content-center" [(ngModel)]="currentPage"
-                (ngModelChange)="segmentChanged($event)">
-                <ion-segment-button value="About me" routerLinkActive="active" routerLink="/about">
-                    <ion-label translate>General.me</ion-label>
-                </ion-segment-button>
-                <ion-segment-button routerLinkActive="passive" routerLink="/rename">
 
-                    <!-- TODO rename -->
+            <!-- <ng-container
+                *ngIf="shared.currentPageTitle != 'About me' && shared.currentPageTitle != 'Rename',else normal">
+                {{ shared.currentPageTitle}}
+            </ng-container> -->
+            <ion-segment mode="md" class="ion-justify-content-center" [(ngModel)]="currentPageTitle"
+                (ngModelChange)="segmentChanged($event)">
+                <ion-segment-button value="About me" routerLink="/start">
+                    <ion-label translate>General.aboutMe</ion-label>
+                </ion-segment-button>
+                <ion-segment-button routerLink="/rename">
+
                     <ion-label translate>General.toBeRenamed</ion-label>
                 </ion-segment-button>
             </ion-segment>

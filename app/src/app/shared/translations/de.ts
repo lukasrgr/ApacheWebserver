@@ -1,7 +1,17 @@
+import { Language } from './language';
 export const TRANSLATION =
 {
-    "General": {
-        "AboutMe": "Über mich",
-        "toBeRenamed": "Umbenennen"
+    General: {
+        aboutMe: "Über mich",
+        toBeRenamed: "Umbenennen"
+    },
+    Menu: {
+        Headings: {
+            Settings: {
+                settings: "Einstellungen",
+                language: "Sprache",
+                generalSettings: "Allgemeine Einstellungen",
+            }
+        }
     }
 }

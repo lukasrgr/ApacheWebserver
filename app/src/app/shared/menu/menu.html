@@ -2,16 +2,18 @@
     <ion-header>
         <ion-toolbar color="secondary">
             <ion-buttons>
-                <ion-menu-button autoHide="true" (click)="closeMenu()">
+                <ion-menu-button autoHide="true" (click)="menu.close()">
                 </ion-menu-button>
             </ion-buttons>
         </ion-toolbar>
     </ion-header>
     <ion-content>
         <ion-list>
+            <ion-item routerLink="/start" routerLinkActive="active" (click)="menu.close()">Start</ion-item>
             <ion-item>Impressum</ion-item>
             <ion-item>Other</ion-item>
-            <ion-item>Settings</ion-item>
+            <ion-item routerLink="/settings" routerLinkActive="active" (click)="menu.close()" style="cursor: pointer;">
+                Settings</ion-item>
             <!-- <ion-button (click)="useLanguage('en')">en</ion-button>
             <ion-button (click)="useLanguage('de')">de</ion-button> -->
         </ion-list>

@@ -1,16 +1,22 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { Eins_Page } from './eins/eins';
+import { SettingsComponent } from './settings/settings';
 import { Zwei_Page } from './zwei/zwei';
 
 const routes: Routes = [
-  // { path: 'aboutMe', redirectTo: 'aboutMe', pathMatch: 'full' },
+  { path: '', redirectTo: 'start', pathMatch: 'full' },
+  { path: 'start', component: Eins_Page },
   { path: 'rename', component: Zwei_Page },
-  { path: 'aboutMe', component: Eins_Page }
+  { path: 'aboutMe', component: Eins_Page },
+  { path: 'settings', component: SettingsComponent }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
+  ],
   exports: [RouterModule]
 })
+
 export class AppRoutingModule { }

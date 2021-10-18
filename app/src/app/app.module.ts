@@ -1,7 +1,7 @@
 import { SharedModule } from './shared/shared.module';
 import { ZweiModule } from './zwei/zwei.module';
 import { EinsModule } from './eins/eins.module';
-import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -15,6 +15,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouteReuseStrategy } from '@angular/router';
 import { LottieModule } from 'ngx-lottie';
 import player from 'lottie-web';
+import { SettingsModule } from './settings/settings.module';
+import { Shared } from './shared/shared.';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,7 @@ import player from 'lottie-web';
     EinsModule,
     ZweiModule,
     SharedModule,
+    SettingsModule,
 
     BrowserModule,
     AppRoutingModule,
@@ -33,18 +36,21 @@ import player from 'lottie-web';
     ReactiveFormsModule,
     // ngx-translate and the loader module
     HttpClientModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useClass: Language,
-      }
-    }),
+    // TranslateModule.forRoot({
+    //   loader: {
+    //     provide: TranslateLoader,
+    //     useClass: Language,
+    //   }
+    // }),
     IonicModule.forRoot(),
     FormsModule,
-    [LottieModule.forRoot({ player: playerFactory })]
+    [LottieModule.forRoot({ player: playerFactory })],
+    AppRoutingModule
   ],
   providers: [
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    { provide: LOCALE_ID, useValue: 'de' },
+    Shared
   ],
   bootstrap: [AppComponent],
 })

@@ -6,14 +6,14 @@ import { TRANSLATION as EN } from './en';
 
 export enum LanguageTag {
     EN = "English",
-    DE = "German",
+    DE = "German"
 }
 
 export class Language implements TranslateLoader {
 
-    // public static getLanguageTags(): LanguageTag[] {
-    //     return Object.keys(LanguageTag).map(key => LanguageTag[key]);
-    // }
+    public static getLanguageTags(): LanguageTag[] {
+        return Object.keys(LanguageTag).map(key => LanguageTag[key as keyof typeof LanguageTag]);
+    }
 
     public static getLanguages(): string[] {
         return Object.keys(LanguageTag).map(key => key.toLowerCase());

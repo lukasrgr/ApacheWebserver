@@ -12,7 +12,7 @@ export class MenuComponent {
     public backUrl: boolean = false;
 
     constructor(
-        private menu: MenuController,
+        public menu: MenuController,
         public router: Router,
         private translate: TranslateService
     ) { }
@@ -28,10 +28,6 @@ export class MenuComponent {
     }
     updateUrl(url: string) {
         this.updateBackUrl(url)
-    }
-
-    closeMenu() {
-        this.menu.close()
     }
 
     useLanguage(language: string): void {

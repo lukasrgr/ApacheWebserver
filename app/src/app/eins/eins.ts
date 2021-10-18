@@ -15,8 +15,7 @@ export class Eins_Page {
 
         // TODO: ? how to access length of lottie animation -> now static
         setTimeout(() => {
-            this.animation_finished = true,
-                console.log("test")
+            this.animation_finished = true
         }, 4000)
     }
 }
